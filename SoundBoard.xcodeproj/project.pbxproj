@@ -31,6 +31,10 @@
 		34C013911B5F1EB100CECA70 /* poetic-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C0138F1B5F1EB100CECA70 /* poetic-logo.png */; };
 		34C013921B5F1EB100CECA70 /* poetic-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C0138F1B5F1EB100CECA70 /* poetic-logo.png */; };
 		34C013931B5F1EB100CECA70 /* poetic-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C0138F1B5F1EB100CECA70 /* poetic-logo.png */; };
+		961B186F1B5F25E40004601C /* scream.wav in Resources */ = {isa = PBXBuildFile; fileRef = 961B186E1B5F25E40004601C /* scream.wav */; };
+		961B18701B5F25EB0004601C /* scream.wav in Resources */ = {isa = PBXBuildFile; fileRef = 961B186E1B5F25E40004601C /* scream.wav */; };
+		961B18711B5F25EB0004601C /* scream.wav in Resources */ = {isa = PBXBuildFile; fileRef = 961B186E1B5F25E40004601C /* scream.wav */; };
+		961B18721B5F25EC0004601C /* scream.wav in Resources */ = {isa = PBXBuildFile; fileRef = 961B186E1B5F25E40004601C /* scream.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +97,7 @@
 		34C0137A1B5F08F500CECA70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		34C0138A1B5F196300CECA70 /* fart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart.wav; sourceTree = "<group>"; };
 		34C0138F1B5F1EB100CECA70 /* poetic-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poetic-logo.png"; sourceTree = "<group>"; };
+		961B186E1B5F25E40004601C /* scream.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = scream.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +163,7 @@
 		34C013401B5F08D800CECA70 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				961B186E1B5F25E40004601C /* scream.wav */,
 				34C0138F1B5F1EB100CECA70 /* poetic-logo.png */,
 				34C0138A1B5F196300CECA70 /* fart.wav */,
 				3492F0481B5F229500C1D361 /* weed.wav */,
@@ -349,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34C013481B5F08D800CECA70 /* Main.storyboard in Resources */,
+				961B186F1B5F25E40004601C /* scream.wav in Resources */,
 				34C0138B1B5F196300CECA70 /* fart.wav in Resources */,
 				34C0134D1B5F08D800CECA70 /* LaunchScreen.xib in Resources */,
 				3492F0491B5F229500C1D361 /* weed.wav in Resources */,
@@ -362,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3492F04A1B5F229500C1D361 /* weed.wav in Resources */,
+				961B18701B5F25EB0004601C /* scream.wav in Resources */,
 				34C013911B5F1EB100CECA70 /* poetic-logo.png in Resources */,
 				34C0138C1B5F196300CECA70 /* fart.wav in Resources */,
 			);
@@ -376,6 +384,7 @@
 				34C0138D1B5F196300CECA70 /* fart.wav in Resources */,
 				34C0136D1B5F08F500CECA70 /* Images.xcassets in Resources */,
 				34C013711B5F08F500CECA70 /* SoundBoard WatchKit App.app in Resources */,
+				961B18711B5F25EB0004601C /* scream.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +397,7 @@
 				34C0138E1B5F196300CECA70 /* fart.wav in Resources */,
 				34C013791B5F08F500CECA70 /* Interface.storyboard in Resources */,
 				34C0137B1B5F08F500CECA70 /* Images.xcassets in Resources */,
+				961B18721B5F25EC0004601C /* scream.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
