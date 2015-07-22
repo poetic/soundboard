@@ -13,8 +13,12 @@ class InterfaceController: WKInterfaceController {
 
     @IBOutlet weak var FartButton: WKInterfaceButton!
     @IBAction func FartButtonTapped() {
-        sendMessageToParentAppWithString("Fart Button Tapped")
+        sendMessageToParentAppWithString("fart")
         
+    }
+    
+    @IBAction func WeedButtonTapped() {
+        sendMessageToParentAppWithString("weed")
     }
     
     override func awakeWithContext(context: AnyObject?) {

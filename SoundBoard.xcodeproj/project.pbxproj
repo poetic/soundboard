@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3492F0491B5F229500C1D361 /* weed.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3492F0481B5F229500C1D361 /* weed.wav */; };
+		3492F04A1B5F229500C1D361 /* weed.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3492F0481B5F229500C1D361 /* weed.wav */; };
+		3492F04B1B5F229500C1D361 /* weed.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3492F0481B5F229500C1D361 /* weed.wav */; };
+		3492F04C1B5F229500C1D361 /* weed.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3492F0481B5F229500C1D361 /* weed.wav */; };
 		34C013431B5F08D800CECA70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C013421B5F08D800CECA70 /* AppDelegate.swift */; };
 		34C013451B5F08D800CECA70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C013441B5F08D800CECA70 /* ViewController.swift */; };
 		34C013481B5F08D800CECA70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C013461B5F08D800CECA70 /* Main.storyboard */; };
@@ -68,6 +72,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3492F0481B5F229500C1D361 /* weed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = weed.wav; sourceTree = "<group>"; };
 		34C0133D1B5F08D800CECA70 /* SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C013411B5F08D800CECA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34C013421B5F08D800CECA70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +160,7 @@
 			children = (
 				34C0138F1B5F1EB100CECA70 /* poetic-logo.png */,
 				34C0138A1B5F196300CECA70 /* fart.wav */,
+				3492F0481B5F229500C1D361 /* weed.wav */,
 				34C013411B5F08D800CECA70 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -345,6 +351,7 @@
 				34C013481B5F08D800CECA70 /* Main.storyboard in Resources */,
 				34C0138B1B5F196300CECA70 /* fart.wav in Resources */,
 				34C0134D1B5F08D800CECA70 /* LaunchScreen.xib in Resources */,
+				3492F0491B5F229500C1D361 /* weed.wav in Resources */,
 				34C013901B5F1EB100CECA70 /* poetic-logo.png in Resources */,
 				34C0134A1B5F08D800CECA70 /* Images.xcassets in Resources */,
 			);
@@ -354,6 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3492F04A1B5F229500C1D361 /* weed.wav in Resources */,
 				34C013911B5F1EB100CECA70 /* poetic-logo.png in Resources */,
 				34C0138C1B5F196300CECA70 /* fart.wav in Resources */,
 			);
@@ -363,6 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3492F04B1B5F229500C1D361 /* weed.wav in Resources */,
 				34C013921B5F1EB100CECA70 /* poetic-logo.png in Resources */,
 				34C0138D1B5F196300CECA70 /* fart.wav in Resources */,
 				34C0136D1B5F08F500CECA70 /* Images.xcassets in Resources */,
@@ -374,6 +383,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3492F04C1B5F229500C1D361 /* weed.wav in Resources */,
 				34C013931B5F1EB100CECA70 /* poetic-logo.png in Resources */,
 				34C0138E1B5F196300CECA70 /* fart.wav in Resources */,
 				34C013791B5F08F500CECA70 /* Interface.storyboard in Resources */,

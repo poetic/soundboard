@@ -10,9 +10,14 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="SoundBoard_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <button width="1" alignment="center" verticalAlignment="center" title="Fart" id="WWD-EI-qwm">
+                        <button width="1" alignment="center" title="Fart" id="WWD-EI-qwm">
                             <connections>
                                 <action selector="FartButtonTapped" destination="AgC-eL-Hgc" id="zlV-2j-Hrt"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Dre" id="RoA-2N-nhD">
+                            <connections>
+                                <action selector="WeedButtonTapped" destination="AgC-eL-Hgc" id="hUZ-53-B79"/>
                             </connections>
                         </button>
                     </items>
