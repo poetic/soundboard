@@ -299,7 +299,7 @@
 						CreatedOnToolsVersion = 6.4;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -673,6 +673,7 @@
 				34C0135E1B5F08D800CECA70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34C0135F1B5F08D800CECA70 /* Build configuration list for PBXNativeTarget "SoundBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -681,6 +682,7 @@
 				34C013611B5F08D800CECA70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34C0137F1B5F08F500CECA70 /* Build configuration list for PBXNativeTarget "SoundBoard WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -689,6 +691,7 @@
 				34C013811B5F08F500CECA70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34C013821B5F08F500CECA70 /* Build configuration list for PBXNativeTarget "SoundBoard WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -697,6 +700,7 @@
 				34C013841B5F08F500CECA70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
