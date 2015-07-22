@@ -14,23 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "34C0133C1B5F08D800CECA70"
-               BuildableName = "SoundBoard.app"
-               BlueprintName = "SoundBoard"
+               BlueprintIdentifier = "34C0136F1B5F08F500CECA70"
+               BuildableName = "SoundBoard WatchKit App.app"
+               BlueprintName = "SoundBoard WatchKit App"
                ReferencedContainer = "container:SoundBoard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "34C013511B5F08D800CECA70"
-               BuildableName = "SoundBoardTests.xctest"
-               BlueprintName = "SoundBoardTests"
+               BlueprintIdentifier = "34C013651B5F08F500CECA70"
+               BuildableName = "SoundBoard WatchKit Extension.appex"
+               BlueprintName = "SoundBoard WatchKit Extension"
+               ReferencedContainer = "container:SoundBoard.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "34C0133C1B5F08D800CECA70"
+               BuildableName = "SoundBoard.app"
+               BlueprintName = "SoundBoard"
                ReferencedContainer = "container:SoundBoard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "34C013511B5F08D800CECA70"
-               BuildableName = "SoundBoardTests.xctest"
-               BlueprintName = "SoundBoardTests"
-               ReferencedContainer = "container:SoundBoard.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "34C0133C1B5F08D800CECA70"
-            BuildableName = "SoundBoard.app"
-            BlueprintName = "SoundBoard"
+            BlueprintIdentifier = "34C0136F1B5F08F500CECA70"
+            BuildableName = "SoundBoard WatchKit App.app"
+            BlueprintName = "SoundBoard WatchKit App"
             ReferencedContainer = "container:SoundBoard.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/SoundBoard">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "34C0133C1B5F08D800CECA70"
-            BuildableName = "SoundBoard.app"
-            BlueprintName = "SoundBoard"
+            BlueprintIdentifier = "34C0136F1B5F08F500CECA70"
+            BuildableName = "SoundBoard WatchKit App.app"
+            BlueprintName = "SoundBoard WatchKit App"
             ReferencedContainer = "container:SoundBoard.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "34C0136F1B5F08F500CECA70"
+            BuildableName = "SoundBoard WatchKit App.app"
+            BlueprintName = "SoundBoard WatchKit App"
+            ReferencedContainer = "container:SoundBoard.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/SoundBoard">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "34C0133C1B5F08D800CECA70"
-            BuildableName = "SoundBoard.app"
-            BlueprintName = "SoundBoard"
+            BlueprintIdentifier = "34C0136F1B5F08F500CECA70"
+            BuildableName = "SoundBoard WatchKit App.app"
+            BlueprintName = "SoundBoard WatchKit App"
             ReferencedContainer = "container:SoundBoard.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "34C0136F1B5F08F500CECA70"
+            BuildableName = "SoundBoard WatchKit App.app"
+            BlueprintName = "SoundBoard WatchKit App"
+            ReferencedContainer = "container:SoundBoard.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

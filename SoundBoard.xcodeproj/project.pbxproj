@@ -13,6 +13,20 @@
 		34C0134A1B5F08D800CECA70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C013491B5F08D800CECA70 /* Images.xcassets */; };
 		34C0134D1B5F08D800CECA70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C0134B1B5F08D800CECA70 /* LaunchScreen.xib */; };
 		34C013591B5F08D800CECA70 /* SoundBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C013581B5F08D800CECA70 /* SoundBoardTests.swift */; };
+		34C0136B1B5F08F500CECA70 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C0136A1B5F08F500CECA70 /* InterfaceController.swift */; };
+		34C0136D1B5F08F500CECA70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C0136C1B5F08F500CECA70 /* Images.xcassets */; };
+		34C013711B5F08F500CECA70 /* SoundBoard WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 34C013701B5F08F500CECA70 /* SoundBoard WatchKit App.app */; };
+		34C013791B5F08F500CECA70 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C013771B5F08F500CECA70 /* Interface.storyboard */; };
+		34C0137B1B5F08F500CECA70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C0137A1B5F08F500CECA70 /* Images.xcassets */; };
+		34C0137E1B5F08F500CECA70 /* SoundBoard WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 34C013661B5F08F500CECA70 /* SoundBoard WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		34C0138B1B5F196300CECA70 /* fart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 34C0138A1B5F196300CECA70 /* fart.wav */; };
+		34C0138C1B5F196300CECA70 /* fart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 34C0138A1B5F196300CECA70 /* fart.wav */; };
+		34C0138D1B5F196300CECA70 /* fart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 34C0138A1B5F196300CECA70 /* fart.wav */; };
+		34C0138E1B5F196300CECA70 /* fart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 34C0138A1B5F196300CECA70 /* fart.wav */; };
+		34C013901B5F1EB100CECA70 /* poetic-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C0138F1B5F1EB100CECA70 /* poetic-logo.png */; };
+		34C013911B5F1EB100CECA70 /* poetic-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C0138F1B5F1EB100CECA70 /* poetic-logo.png */; };
+		34C013921B5F1EB100CECA70 /* poetic-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C0138F1B5F1EB100CECA70 /* poetic-logo.png */; };
+		34C013931B5F1EB100CECA70 /* poetic-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C0138F1B5F1EB100CECA70 /* poetic-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +37,35 @@
 			remoteGlobalIDString = 34C0133C1B5F08D800CECA70;
 			remoteInfo = SoundBoard;
 		};
+		34C013721B5F08F500CECA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C013351B5F08D800CECA70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C0136F1B5F08F500CECA70;
+			remoteInfo = "SoundBoard WatchKit App";
+		};
+		34C0137C1B5F08F500CECA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C013351B5F08D800CECA70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C013651B5F08F500CECA70;
+			remoteInfo = "SoundBoard WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34C013851B5F08F500CECA70 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				34C0137E1B5F08F500CECA70 /* SoundBoard WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		34C0133D1B5F08D800CECA70 /* SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +78,16 @@
 		34C013521B5F08D800CECA70 /* SoundBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C013571B5F08D800CECA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34C013581B5F08D800CECA70 /* SoundBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBoardTests.swift; sourceTree = "<group>"; };
+		34C013661B5F08F500CECA70 /* SoundBoard WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SoundBoard WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C013691B5F08F500CECA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C0136A1B5F08F500CECA70 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		34C0136C1B5F08F500CECA70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34C013701B5F08F500CECA70 /* SoundBoard WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SoundBoard WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C013761B5F08F500CECA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C013781B5F08F500CECA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		34C0137A1B5F08F500CECA70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34C0138A1B5F196300CECA70 /* fart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart.wav; sourceTree = "<group>"; };
+		34C0138F1B5F1EB100CECA70 /* poetic-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poetic-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +105,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		34C013631B5F08F500CECA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +120,8 @@
 			children = (
 				34C0133F1B5F08D800CECA70 /* SoundBoard */,
 				34C013551B5F08D800CECA70 /* SoundBoardTests */,
+				34C013671B5F08F500CECA70 /* SoundBoard WatchKit Extension */,
+				34C013741B5F08F500CECA70 /* SoundBoard WatchKit App */,
 				34C0133E1B5F08D800CECA70 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +131,8 @@
 			children = (
 				34C0133D1B5F08D800CECA70 /* SoundBoard.app */,
 				34C013521B5F08D800CECA70 /* SoundBoardTests.xctest */,
+				34C013661B5F08F500CECA70 /* SoundBoard WatchKit Extension.appex */,
+				34C013701B5F08F500CECA70 /* SoundBoard WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +153,8 @@
 		34C013401B5F08D800CECA70 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				34C0138F1B5F1EB100CECA70 /* poetic-logo.png */,
+				34C0138A1B5F196300CECA70 /* fart.wav */,
 				34C013411B5F08D800CECA70 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -112,6 +177,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		34C013671B5F08F500CECA70 /* SoundBoard WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				34C0136A1B5F08F500CECA70 /* InterfaceController.swift */,
+				34C0136C1B5F08F500CECA70 /* Images.xcassets */,
+				34C013681B5F08F500CECA70 /* Supporting Files */,
+			);
+			path = "SoundBoard WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		34C013681B5F08F500CECA70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34C013691B5F08F500CECA70 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34C013741B5F08F500CECA70 /* SoundBoard WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				34C013771B5F08F500CECA70 /* Interface.storyboard */,
+				34C0137A1B5F08F500CECA70 /* Images.xcassets */,
+				34C013751B5F08F500CECA70 /* Supporting Files */,
+			);
+			path = "SoundBoard WatchKit App";
+			sourceTree = "<group>";
+		};
+		34C013751B5F08F500CECA70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34C013761B5F08F500CECA70 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +223,12 @@
 				34C013391B5F08D800CECA70 /* Sources */,
 				34C0133A1B5F08D800CECA70 /* Frameworks */,
 				34C0133B1B5F08D800CECA70 /* Resources */,
+				34C013851B5F08F500CECA70 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				34C0137D1B5F08F500CECA70 /* PBXTargetDependency */,
 			);
 			name = SoundBoard;
 			productName = SoundBoard;
@@ -150,6 +253,39 @@
 			productReference = 34C013521B5F08D800CECA70 /* SoundBoardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		34C013651B5F08F500CECA70 /* SoundBoard WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C013821B5F08F500CECA70 /* Build configuration list for PBXNativeTarget "SoundBoard WatchKit Extension" */;
+			buildPhases = (
+				34C013621B5F08F500CECA70 /* Sources */,
+				34C013631B5F08F500CECA70 /* Frameworks */,
+				34C013641B5F08F500CECA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C013731B5F08F500CECA70 /* PBXTargetDependency */,
+			);
+			name = "SoundBoard WatchKit Extension";
+			productName = "SoundBoard WatchKit Extension";
+			productReference = 34C013661B5F08F500CECA70 /* SoundBoard WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		34C0136F1B5F08F500CECA70 /* SoundBoard WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C0137F1B5F08F500CECA70 /* Build configuration list for PBXNativeTarget "SoundBoard WatchKit App" */;
+			buildPhases = (
+				34C0136E1B5F08F500CECA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SoundBoard WatchKit App";
+			productName = "SoundBoard WatchKit App";
+			productReference = 34C013701B5F08F500CECA70 /* SoundBoard WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +297,22 @@
 				TargetAttributes = {
 					34C0133C1B5F08D800CECA70 = {
 						CreatedOnToolsVersion = 6.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					34C013511B5F08D800CECA70 = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 34C0133C1B5F08D800CECA70;
+					};
+					34C013651B5F08F500CECA70 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					34C0136F1B5F08F500CECA70 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = M37WQS4429;
 					};
 				};
 			};
@@ -183,6 +331,8 @@
 			targets = (
 				34C0133C1B5F08D800CECA70 /* SoundBoard */,
 				34C013511B5F08D800CECA70 /* SoundBoardTests */,
+				34C013651B5F08F500CECA70 /* SoundBoard WatchKit Extension */,
+				34C0136F1B5F08F500CECA70 /* SoundBoard WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -193,7 +343,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				34C013481B5F08D800CECA70 /* Main.storyboard in Resources */,
+				34C0138B1B5F196300CECA70 /* fart.wav in Resources */,
 				34C0134D1B5F08D800CECA70 /* LaunchScreen.xib in Resources */,
+				34C013901B5F1EB100CECA70 /* poetic-logo.png in Resources */,
 				34C0134A1B5F08D800CECA70 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +354,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C013911B5F1EB100CECA70 /* poetic-logo.png in Resources */,
+				34C0138C1B5F196300CECA70 /* fart.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C013641B5F08F500CECA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C013921B5F1EB100CECA70 /* poetic-logo.png in Resources */,
+				34C0138D1B5F196300CECA70 /* fart.wav in Resources */,
+				34C0136D1B5F08F500CECA70 /* Images.xcassets in Resources */,
+				34C013711B5F08F500CECA70 /* SoundBoard WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C0136E1B5F08F500CECA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C013931B5F1EB100CECA70 /* poetic-logo.png in Resources */,
+				34C0138E1B5F196300CECA70 /* fart.wav in Resources */,
+				34C013791B5F08F500CECA70 /* Interface.storyboard in Resources */,
+				34C0137B1B5F08F500CECA70 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +401,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		34C013621B5F08F500CECA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C0136B1B5F08F500CECA70 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +416,16 @@
 			isa = PBXTargetDependency;
 			target = 34C0133C1B5F08D800CECA70 /* SoundBoard */;
 			targetProxy = 34C013531B5F08D800CECA70 /* PBXContainerItemProxy */;
+		};
+		34C013731B5F08F500CECA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C0136F1B5F08F500CECA70 /* SoundBoard WatchKit App */;
+			targetProxy = 34C013721B5F08F500CECA70 /* PBXContainerItemProxy */;
+		};
+		34C0137D1B5F08F500CECA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C013651B5F08F500CECA70 /* SoundBoard WatchKit Extension */;
+			targetProxy = 34C0137C1B5F08F500CECA70 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +444,14 @@
 				34C0134C1B5F08D800CECA70 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		34C013771B5F08F500CECA70 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C013781B5F08F500CECA70 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +592,68 @@
 			};
 			name = Release;
 		};
+		34C013801B5F08F500CECA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = SoundBoard_WatchKit_Extension;
+				INFOPLIST_FILE = "SoundBoard WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		34C013811B5F08F500CECA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = SoundBoard_WatchKit_Extension;
+				INFOPLIST_FILE = "SoundBoard WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		34C013831B5F08F500CECA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SoundBoard WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		34C013841B5F08F500CECA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SoundBoard WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +679,22 @@
 			buildConfigurations = (
 				34C013601B5F08D800CECA70 /* Debug */,
 				34C013611B5F08D800CECA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34C0137F1B5F08F500CECA70 /* Build configuration list for PBXNativeTarget "SoundBoard WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C013801B5F08F500CECA70 /* Debug */,
+				34C013811B5F08F500CECA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34C013821B5F08F500CECA70 /* Build configuration list for PBXNativeTarget "SoundBoard WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C013831B5F08F500CECA70 /* Debug */,
+				34C013841B5F08F500CECA70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

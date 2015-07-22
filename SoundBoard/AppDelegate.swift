@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -41,6 +42,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    func application(application: UIApplication, handleWatchKitExtensionRequest userInfo: [NSObject : AnyObject]?, reply: (([NSObject : AnyObject]!) -> Void)!) {
+        
+        let soundURL = NSBundle.mainBundle().URLForResource("fart", withExtension: "wav")
+        var mySound: SystemSoundID = 0
+        AudioServicesCreateSystemSoundID(soundURL, &mySound)
+        AudioServicesPlaySystemSound(mySound);
+        
+        if let infoDictionary = userInfo as? [String: String], message = infoDictionary["message"] {
+            let response = "\(message), and the iPhone app has seen it."
+            let responseDictionary = ["message" : response]
+            
+            reply(responseDictionary)
+        }
+    }
 }
 
